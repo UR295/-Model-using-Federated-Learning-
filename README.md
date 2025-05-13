@@ -21,7 +21,7 @@ Federated Learning (FL) is a **distributed machine learning (ML)** technique tha
 ---
 ## 📷 Federated Learning WorkFlow 
 
-- ![Federated Learning WorkFlow](https://towardsdatascience.com/wp-content/uploads/2022/08/1npH4HZ8Nzrv4vkCqmLsmxg-1024x307.png)
+- ![Federated Learning WorkFlow](https://github.com/UR295/-Model-using-Federated-Learning-/blob/main/fl%20workflow.png)
 
 ---
 
