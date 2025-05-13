@@ -1,4 +1,4 @@
-# Federated-Learning-
+# Federated Learning
 # 🤖 Federated Learning in AI
 
 Federated Learning (FL) is a **distributed machine learning (ML)** technique that enables training across multiple devices or servers without exchanging raw data. Instead, it shares only model updates, thus preserving **data privacy** and **security** — a crucial factor in modern AI applications.
