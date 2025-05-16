@@ -27,22 +27,40 @@ Federated Learning simply reverses the classical machine learning approach. It e
 
 ---
 ## 📷 Federated Learning WorkFlow 
-
-- ![Federated Learning WorkFlow](https://github.com/UR295/-Model-using-Federated-Learning-/blob/main/fl%20workflow.png)
-
+ ![Federated Learning WorkFlow](https://github.com/UR295/-Model-using-Federated-Learning-/blob/main/fl%20workflow.png)
+<p align="center"><b><i style="color:white;">Federated Learning WorkFlow</b></p>
 ---
 
 ## 🔄 How It Works
 
-1. Initialization: A global model is initialized on a central server.
+1. **Initialization:** A global model is initialized on a central server.
+<p align="center"><b><i style="color:white;">Global Model</b></p>
 
-2. Local Training: Devices (e.g., smartphones, hospitals, IoT sensors) train the model locally on their private data.
+  ![Global Model](https://github.com/UR295/-Model-using-Federated-Learning-/blob/main/Global%20Model.png)
 
-3. Model Update: The updated model parameters (not data) are sent back to the server.
 
-4. Aggregation: The server aggregates these updates using techniques like FedAvg (Federated Averaging).
+2. **Local Training:** Devices (e.g., smartphones, hospitals, IoT sensors) train the model locally on their private data.
+<p align="center"><b><i style="color:white;">model to clients</b></p>
+   
+ ![model to clients](https://github.com/UR295/-Model-using-Federated-Learning-/blob/main/model%20to%20clients.png)
+  <p align="center"><b><i style="color:white;">trained locally</b></p>
+    
+ ![trained locally](https://github.com/UR295/-Model-using-Federated-Learning-/blob/main/model%20trained%20locally.png)
 
-5. Repeat: The updated global model is sent back to clients for the next round.
+
+3. **Model Update:** The updated model parameters (not data) are sent back to the server.
+ <p align="center"><b><i style="color:white;">clients to server</b></p>
+   
+ ![clients to server](https://github.com/UR295/-Model-using-Federated-Learning-/blob/main/local%20to%20server.png)
+ 
+
+4. **Aggregation:**  The server aggregates these updates using techniques like FedAvg (Federated Averaging).   
+ <p align="center"><b><i style="color:white;">aggregate model to new model</b></p>
+   
+ ![aggregate model to new model](https://github.com/UR295/-Model-using-Federated-Learning-/blob/main/aggregate%20model%20to%20new%20model.png)
+
+
+5. **Repeat:** The updated global model is sent back to clients for the next round.
 
 ---
 
