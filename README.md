@@ -3,10 +3,10 @@
 
 Federated Learning (FL) is a **distributed machine learning (ML)** technique that enables training across multiple devices or servers without exchanging raw data. Instead, it shares only model updates, thus preserving **data privacy** and **security** — a crucial factor in modern AI applications.
 
-### Do You Find It Difficult To Understand ?
+### 😟 Do You Find It Difficult To Understand ?
 
 Lets explain in a simple terms , 
-Federated Learning simply reverses this approach. It enables machine learning on distributed data by moving the training to the data, instead of moving the data to the training. Here’s a one-liner explanation:
+Federated Learning simply reverses the classical machine learning approach. It enables machine learning on distributed data by moving the training to the data, instead of moving the data to the training. Here’s a one-liner explanation:
 * Centralized machine learning: move the data to the computation
 * Federated (machine) Learning: move the computation to the data
 
