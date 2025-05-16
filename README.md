@@ -7,8 +7,8 @@ Federated Learning (FL) is a **distributed machine learning (ML)** technique tha
 
 Lets explain in a simple terms , 
 Federated Learning simply reverses the classical machine learning approach. It enables machine learning on distributed data by moving the training to the data, instead of moving the data to the training. Here’s a one-liner explanation:
-* Centralized machine learning: move the data to the computation
-* Federated (machine) Learning: move the computation to the data
+* **Centralized machine learning:** move the data to the computation
+* **Federated (machine) Learning:** move the computation to the data
 
 > ✨ _Want to know where Federated Learning fits into AI?_  
 > It lies at the intersection of **AI**, **privacy**, and **edge computing**, revolutionizing how models are trained without centralized data collection.
@@ -121,6 +121,15 @@ Millions of edge devices like phones or wearables participate in training.
 - **Differential Privacy** *(optional)*
 
 ---
+## Additional Terms:
+🔍 Federated Evaluation (FE)
+Allows evaluation of the global model on decentralized client data to collect performance metrics—an essential part of federated learning systems.
+
+📊 Federated Analytics (FA)
+Enables statistical queries (like averages) across client nodes without training a model. Uses privacy-preserving techniques like secure aggregation to protect individual data.
+
+🔐 Differential Privacy (DP)
+Adds statistical noise to model updates to ensure individual user data can't be re-identified. It provides measurable privacy protection in federated systems.
 
 ## 🙌 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
